@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solcafe Art Gallery</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="site-title">
+        <a href="../index.html" class="site-title-link"><h1>Solcafe</h1></a>
+
+        <h3>Solar Punk Inspired</h3>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../comm.html">Community & Collab</a></li>
+
+          <li><a href="../about.html">About</a></li>
+
+          <li><a href="../references.html">References</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>SolarPunk Art & Creative Works</h2>
+        <p>Explore Art submitted by Users</p>
+        <div class="art-gallery">
+          <div class="art-item">
+            <img src="../images/Art-1.jpg" alt="Solarpunl Cityscape" />
+            <p class="caption">SolarPunk CityScape by User1</p>
+          </div>
+          <div class="art-item">
+            <img src="../images/Art-2.jpg" alt="Spirit Punk" />
+            <p class="caption">Kitsune Punk by User2</p>
+          </div>
+          <div class="art-item">
+            <img src="../images/Art-3.jpg" alt="Balloon Punk" />
+            <p class="caption">Big Ballons Punk by User3</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Light Box Modal -->
+    <div id="lightbox" style="display: none">
+      <span
+        id="lightbox-close"
+        style="
+          position: absolute;
+          top: 20px;
+          right: 40px;
+          font-size: 2rem;
+          cursor: pointer;
+          color: #fff;
+        "
+        >&times;</span
+      >
+      <img
+        id="lightbox-img"
+        src=""
+        alt="Art"
+        style="
+          max-width: 90vw;
+          max-height: 90vh;
+          display: block;
+          margin: 60px auto 0 auto;
+          border-radius: 8px;
+          box-shadow: 0 0 20px #000;
+        "
+      />
+    </div>
+    <footer>
+      <p>&copy; 2025 Solcafe. All rights reserved.</p>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
