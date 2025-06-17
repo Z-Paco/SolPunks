@@ -1,0 +1,61 @@
+/* Color theme */
+:root {
+  /* Primary Theme Colors */
+  --primary-bg: #0a3d62;
+  --primary-bg-dark: #145a8b;
+  --secondary-bg: #fff;
+
+  /* Text Colors (Accessibility-Checked) */
+  --primary-text: #ffffff; /* High contrast on dark backgrounds */
+  --secondary-text: #222222; /* Even better readability on light backgrounds */
+  --highlight-text: #f4b400; /* Use for highlights, check contrast on both bg types */
+  --muted-text: #666666; /* For less important text */
+
+  /* Footer & Card Styling */
+  --footer-bg: #0a3d62;
+  --footer-text: #fff;
+  --card-border: #ddd;
+  --card-shadow: rgba(0, 0, 0, 0.1);
+  --card-hover-shadow: rgba(10, 61, 98, 0.18);
+  --caption-text: #444;
+}
+
+/* ABOUT PAFE STYLES */
+.about-content {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 2rem 1.5rem;
+  line-height: 1.6;
+  color: #222222;
+  font-family: "helvetica Neue", Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(60, 60, 90, 0.07);
+}
+.about-content h2 {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  text-align: center;
+  color: #222222;
+  background: #ffffff;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.02;
+}
+
+.about-content p {
+  margin: 1rem 0;
+  font-size: 1.08rem;
+  color: var(--secondary-text, #444);
+}
+
+.about-content p strong {
+  color: var(--highlight-text, #6c63ff);
+}
+
+/* Optional adjustments for smaller screens */
+@media (max-width: 768px) {
+  .about-content {
+    margin: 1.5rem 0.5rem;
+    padding: 1.2rem 0.5rem;
+  }
+}
